@@ -58,12 +58,12 @@ python benchmark.py
 ```
 
 You’ll see output similar to:
-,,,
 
-Slow avg: 0.00042
-Fast avg: 0.000003
-Speedup: 140x
-,,,
+Slow avg: 0.0002847 seconds
+
+Fast avg: 0.000000291 seconds
+
+Speedup: 975x faster
 
 This shows how much faster dictionary lookups are compared to list scans.
 
