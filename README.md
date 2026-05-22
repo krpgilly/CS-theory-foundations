@@ -56,20 +56,37 @@ FastAPI backend + benchmarking suite
 
 Folder: `week1-data-structures/`
 
-### 🔜 Week 2 — Relational Databases & Schema Design
+### ✅ Week 2 — Relational Databases, Normalisation & Query Performance
 
-What I’ll learn:  
-How relational databases structure data, why normalization matters, and how indexes change performance.
+What I learned:
+How relational databases structure data, why normalisation matters (1NF → 3NF), and how indexes dramatically change performance.
+Also learned how JOINs work across multiple tables and how to benchmark SQL queries using Python.
 
-Project (planned):
+Project:  
+SQLite schema + Python benchmarking suite
 
-- Design a multi‑table schema (SQLite/Postgres)
+Designed a fully normalised 3NF schema (`users`, `notes`, `tags`, `note_tags`)
 
-- Add foreign keys
+Added foreign keys and indexes
 
-- Add indexes
+Inserted large datasets using a seed script
 
-- Benchmark indexed vs non‑indexed queries
+Benchmarked indexed vs non‑indexed lookups
+
+Benchmarked JOIN performance across multiple tables
+
+Key Results:
+
+```bash
+
+Join query time: 0.0102s
+Without index:   0.0045s
+With index:      0.00012s
+```
+
+Indexes improved lookup speed by ~37×.
+
+Folder: `week2-database-normalisation/`
 
 ### 🔜 Week 3 — Networking, Protocols & HTTP Lifecycle
 
