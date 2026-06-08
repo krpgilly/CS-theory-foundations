@@ -88,18 +88,75 @@ Indexes improved lookup speed by ~37×.
 
 Folder: `week2-database-normalisation/`
 
-### 🔜 Week 3 — Networking, Protocols & HTTP Lifecycle
+### ✅ Week 3 — Networking, Protocols & HTTP Lifecycle
 
-What I’ll learn:  
-How APIs actually communicate: HTTP methods, headers, status codes, TCP/IP, DNS, and the full request/response lifecycle.
+What I learned:  
+How APIs actually communicate over the web: HTTP methods, headers, status codes, CORS, and the full request/response lifecycle.
+Also learned the difference between browser requests, curl requests, JSON bodies, form data, and how Flask handles each part of an incoming request.
 
-Project (planned):
+Project:
+Custom `/inspect` endpoint built with Flask.
 
-- Build a custom /inspect endpoint
+The endpoint returns raw request metadata so I can see how HTTP works in real time:
 
-- Return raw request metadata
+HTTP method (GET, POST, PUT, DELETE)
 
-- Test from another client or service
+Path
+
+Query parameters
+
+JSON body
+
+Form data
+
+Raw body
+
+Client IP
+
+All request headers
+
+CORS enabled using `flask_cors` so the API can be called from other origins (e.g., a frontend running on a different port).
+
+Examples tested:
+
+GET request (browser):
+
+```json
+{
+  "method": "GET",
+  "query_params": { "hello": "world", "user": "harry" },
+  "json_body": null,
+  "headers": { ... }
+}
+```
+
+POST request (curl):
+
+```json
+{
+  "method": "POST",
+  "json_body": { "name": "Harry" },
+  "raw_body": "{\"name\": \"Harry\"}",
+  "headers": { ... }
+}
+```
+
+Key Results:  
+I can now clearly see the differences between:
+
+Browser vs curl requests
+
+GET vs POST
+
+Query params vs JSON body
+
+Raw body vs parsed body
+
+Browser security (CORS)
+
+How Flask exposes request metadata
+
+Folder: `week3-Networking-HTTP/`
 
 ### 🔜 Week 4 — Operating Systems, Linux & Process Management
 
