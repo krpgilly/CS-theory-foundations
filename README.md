@@ -38,7 +38,7 @@ This repo is my personal roadmap to build those foundations properly, one week a
 
 A high‑level overview of each week and the project attached to it.
 
-### ✅ Week 1 — Core Data Structures & Big O Execution
+### ✅ Module 1 — Core Data Structures & Big O Execution
 
 What I learned:  
 Understanding how different data structures behave in real code: lists vs hash maps, O(1) vs O(N), and how lookup performance actually works.
@@ -56,7 +56,7 @@ FastAPI backend + benchmarking suite
 
 Folder: `week1-data-structures/`
 
-### ✅ Week 2 — Relational Databases, Normalisation & Query Performance
+### ✅ Module 2 — Relational Databases, Normalisation & Query Performance
 
 What I learned:
 How relational databases structure data, why normalisation matters (1NF → 3NF), and how indexes dramatically change performance.
@@ -88,7 +88,7 @@ Indexes improved lookup speed by ~37×.
 
 Folder: `week2-database-normalisation/`
 
-### ✅ Week 3 — Networking, Protocols & HTTP Lifecycle
+### ✅ Module 3 — Networking, Protocols & HTTP Lifecycle
 
 What I learned:  
 How APIs actually communicate over the web: HTTP methods, headers, status codes, CORS, and the full request/response lifecycle.
@@ -158,7 +158,7 @@ How Flask exposes request metadata
 
 Folder: `week3-Networking-HTTP/`
 
-### 🔜 Week 4 — Operating Systems, Linux & Process Management
+### 🔜 Module 4 — Operating Systems, Linux & Process Management
 
 What I’ll learn:  
 How code runs on a real machine: processes, threads, permissions, file systems, environment variables, and logs.
@@ -171,7 +171,7 @@ Project (planned):
 
 - Automate tasks with Bash
 
-### 🔜 Week 5 — SDLC, Git & CI/CD Pipelines
+### 🔜 Module 5 — SDLC, Git & CI/CD Pipelines
 
 What I’ll learn:  
 How real engineering teams work: branching, pull requests, testing, and automated pipelines.

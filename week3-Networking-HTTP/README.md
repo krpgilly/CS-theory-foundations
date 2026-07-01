@@ -53,7 +53,7 @@ Returns request metadata.
 
 Example:
 
-```
+```code
 /inspect?hello=world&user=harry
 ```
 
@@ -87,7 +87,7 @@ Simple health check:
 
 ## Project Structure
 
-```
+```code
 week3-Networking-HTTP/
 │
 ├── app.py
@@ -111,6 +111,6 @@ python app.py
 
 The API will be available at:
 
-```
+```code
 http://127.0.0.1:5000
 ```
