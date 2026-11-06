@@ -157,3 +157,68 @@ Browser security (CORS)
 How Flask exposes request metadata
 
 Folder: `week3-Networking-HTTP/`
+
+### 🔜 Module 4 — Operating Systems, Linux & Process Management
+
+What I’ll learn:  
+How code runs on a real machine: processes, threads, permissions, file systems, environment variables, and logs.
+
+Project (planned):
+
+- Deploy the Notes API on Linux
+
+- Inspect processes, permissions, logs
+
+- Automate tasks with Bash
+
+### 🔜 Module 5 — SDLC, Git & CI/CD Pipelines
+
+What I’ll learn:  
+How real engineering teams work: branching, pull requests, testing, and automated pipelines.
+
+Project (planned):
+
+- Create a GitHub Actions pipeline
+
+- Lint, test, and build on every PR
+
+- Produce a verified build artifact
+
+### 🔜 Module 6 — Docker & Kubernetes
+
+What I’ll learn:  
+How to package applications in containers, manage multi-container development environments, and orchestrate workloads with Kubernetes.
+
+Project (planned):
+
+- Build a standalone sample application and containerize it with Docker
+
+- Run the application and its dependencies with Docker Compose
+
+- Deploy the sample application to a local Kubernetes cluster
+
+### 🔜 Module 7 — Azure & Cloud Computing
+
+What I’ll learn:  
+Core cloud concepts, including cloud services, deployment, identity and access, networking, and monitoring, using Microsoft Azure.
+
+Project (planned):
+
+- Deploy a standalone sample application to Azure
+
+- Configure its cloud resources and environment variables
+
+- Monitor the deployment and document its cost and security considerations
+
+### 🔜 Module 8 — Low-Code Automation
+
+What I’ll learn:  
+How low-code automation platforms such as Make.com or n8n connect services and automate workflows using triggers, actions, and APIs.
+
+Project (planned):
+
+- Build a standalone workflow that moves data between two services
+
+- Add a trigger, validation, and error handling
+
+- Document how to run and test the workflow
